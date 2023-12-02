@@ -17,9 +17,9 @@ print("3. Multiply")
 print("4. Divide")
 
 prev_result = 0
-continue_calc = 'y'
+continue_calculation = 'y'
 
-while continue_calc == 'y':
+while continue_calculation == 'y':
 
     if prev_result != 0:
         print("Previous Result: ", prev_result)
@@ -47,6 +47,6 @@ while continue_calc == 'y':
     prev_result = result
 
     print("Result =",result)
-    continue_calc = input("\nContinue? (y/n) ")
+    continue_calculation = input("\nContinue? (y/n) ")
 
 print("Bye!")
